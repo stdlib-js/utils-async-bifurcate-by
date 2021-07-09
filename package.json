@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-async-bifurcate-by",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Split values into two groups according to a predicate function.",
   "license": "Apache-2.0",
   "author": {
