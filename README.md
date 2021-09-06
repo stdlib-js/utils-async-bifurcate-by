@@ -416,6 +416,21 @@ bifurcateByAsync( files, predicate, done );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/bifurcate-by`][@stdlib/utils/bifurcate-by]: split values into two groups according to a predicate function.
+-   [`@stdlib/utils/async/group-by`][@stdlib/utils/async/group-by]: group values according to an indicator function.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -478,6 +493,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [mdn-object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+<!-- <related-links> -->
+
+[@stdlib/utils/bifurcate-by]: https://github.com/stdlib-js/utils-bifurcate-by
+
+[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by
+
+<!-- </related-links> -->
 
 </section>
 
