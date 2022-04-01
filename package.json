@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/utils-async-bifurcate-by",
+  "version": "0.0.0",
+  "description": "Split values into two groups according to a predicate function.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-async-bifurcate-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "group",
+    "groupby",
+    "group-by",
+    "bifurcate",
+    "bifurcation",
+    "asynchronous",
+    "async",
+    "aggregate",
+    "partition",
+    "split",
+    "array",
+    "collection",
+    "array-like"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
