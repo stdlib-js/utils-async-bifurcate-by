@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var noop = require( '@stdlib/utils-noop' );
-var bifurcateByAsync = require( './../lib/bifurcate_by.js' );
+var bifurcateByAsync = require( './../lib' );
 
 
 // TESTS //
