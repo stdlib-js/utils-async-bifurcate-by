@@ -432,8 +432,8 @@ bifurcateByAsync( files, predicate, done );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/bifurcate-by`][@stdlib/utils/bifurcate-by]</span><span class="delimiter">: </span><span class="description">split values into two groups according to a predicate function.</span>
--   <span class="package-name">[`@stdlib/utils/async/group-by`][@stdlib/utils/async/group-by]</span><span class="delimiter">: </span><span class="description">group values according to an indicator function.</span>
+-   <span class="package-name">[`@stdlib/utils-bifurcate-by`][@stdlib/utils/bifurcate-by]</span><span class="delimiter">: </span><span class="description">split values into two groups according to a predicate function.</span>
+-   <span class="package-name">[`@stdlib/utils-async/group-by`][@stdlib/utils/async/group-by]</span><span class="delimiter">: </span><span class="description">group values according to an indicator function.</span>
 
 </section>
 
