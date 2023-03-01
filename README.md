@@ -34,20 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-async-bifurcate-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import bifurcateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@esm/index.mjs';
+var bifurcateByAsync = require( '@stdlib/utils-async-bifurcate-by' );
 ```
 
 #### bifurcateByAsync( collection, \[options,] predicate, done )
@@ -367,15 +377,10 @@ The function accepts the same `options` as `bifurcateByAsync()`.
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
+```javascript
 var resolve = require( 'path' ).resolve;
-import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import bifurcateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@esm/index.mjs';
+var readFile = require( '@stdlib/fs-read-file' );
+var bifurcateByAsync = require( '@stdlib/utils-async-bifurcate-by' );
 
 var files = [
     resolve( __dirname, 'package.json' ),
@@ -405,10 +410,6 @@ function predicate( file, next ) {
 }
 
 bifurcateByAsync( files, predicate, done );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -431,8 +432,8 @@ bifurcateByAsync( files, predicate, done );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/bifurcate-by`][@stdlib/utils/bifurcate-by]</span><span class="delimiter">: </span><span class="description">split values into two groups according to a predicate function.</span>
--   <span class="package-name">[`@stdlib/utils/async/group-by`][@stdlib/utils/async/group-by]</span><span class="delimiter">: </span><span class="description">group values according to an indicator function.</span>
+-   <span class="package-name">[`@stdlib/utils-bifurcate-by`][@stdlib/utils/bifurcate-by]</span><span class="delimiter">: </span><span class="description">split values into two groups according to a predicate function.</span>
+-   <span class="package-name">[`@stdlib/utils-async/group-by`][@stdlib/utils/async/group-by]</span><span class="delimiter">: </span><span class="description">group values according to an indicator function.</span>
 
 </section>
 
@@ -447,7 +448,7 @@ bifurcateByAsync( files, predicate, done );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -515,9 +516,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/bifurcate-by]: https://github.com/stdlib-js/utils-bifurcate-by/tree/esm
+[@stdlib/utils/bifurcate-by]: https://github.com/stdlib-js/utils-bifurcate-by
 
-[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by/tree/esm
+[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by
 
 <!-- </related-links> -->
 
