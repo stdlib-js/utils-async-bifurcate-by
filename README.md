@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bifurcateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@esm/index.mjs';
+import bifurcateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@v0.2.2-esm/index.mjs';
 ```
 
 #### bifurcateByAsync( collection, \[options,] predicate, done )
@@ -386,7 +386,7 @@ The function accepts the same `options` as `bifurcateByAsync()`.
 
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import bifurcateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@esm/index.mjs';
+import bifurcateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-bifurcate-by@v0.2.2-esm/index.mjs';
 
 var files = [
     resolve( __dirname, 'package.json' ),
